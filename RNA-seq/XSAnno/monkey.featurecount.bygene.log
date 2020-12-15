@@ -1,0 +1,118 @@
+nohup: 忽略输入
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+       Rsubread 1.32.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 10 BAM files                                     ||
+||                           P sample_01_starAligned.out.bam                  ||
+||                           P sample_02_starAligned.out.bam                  ||
+||                           P sample_03_starAligned.out.bam                  ||
+||                           P sample_04_starAligned.out.bam                  ||
+||                           P sample_05_starAligned.out.bam                  ||
+||                           P sample_06_starAligned.out.bam                  ||
+||                           P sample_07_starAligned.out.bam                  ||
+||                           P sample_08_starAligned.out.bam                  ||
+||                           P sample_09_starAligned.out.bam                  ||
+||                           P sample_10_starAligned.out.bam                  ||
+||                                                                            ||
+||              Annotation : R data.frame                                     ||
+||      Dir for temp files : .                                                ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : required                                         ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file .Rsubread_UserProvidedAnnotation_pid6137 ...          ||
+||    Features : 797832                                                       ||
+||    Meta-features : 34062                                                   ||
+||    Chromosomes/contigs : 22                                                ||
+||                                                                            ||
+|| Process BAM file sample_01_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36861639                                             ||
+||    Successfully assigned alignments : 35195199 (95.5%)                     ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_02_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36856345                                             ||
+||    Successfully assigned alignments : 35187474 (95.5%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_03_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36854769                                             ||
+||    Successfully assigned alignments : 35192310 (95.5%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_04_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36842134                                             ||
+||    Successfully assigned alignments : 35181093 (95.5%)                     ||
+||    Running time : 0.19 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_05_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36873526                                             ||
+||    Successfully assigned alignments : 35205957 (95.5%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_06_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36861479                                             ||
+||    Successfully assigned alignments : 35192826 (95.5%)                     ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_07_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36841261                                             ||
+||    Successfully assigned alignments : 35175612 (95.5%)                     ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_08_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36877523                                             ||
+||    Successfully assigned alignments : 35209362 (95.5%)                     ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_09_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36864658                                             ||
+||    Successfully assigned alignments : 35197248 (95.5%)                     ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_10_starAligned.out.bam...                          ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||    Total alignments : 36883539                                             ||
+||    Successfully assigned alignments : 35219455 (95.5%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+

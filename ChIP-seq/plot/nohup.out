@@ -1,0 +1,168 @@
+Exception in thread <function getDepth_geneBody at 0x7f1ad20d8a28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7f1ad20d88c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth_geneBody at 0x7efe4cd48a28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7efe4cd488c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth_geneBody at 0x7fca3a6c3a28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7fca3a6c38c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth_geneBody at 0x7f7451e27a28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7f7451e278c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth_geneBody at 0x7f93215c9a28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7f93215c98c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth_geneBody at 0x7f58263a9a28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7f58263a98c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth_geneBody at 0x7ff17b13ca28>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 126, in getDepth_geneBody
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary,i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
+Exception in thread <function getDepth at 0x7ff17b13c8c0>:
+Traceback (most recent call last):
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/lustre/user/liclab/liuyt/software/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "ChIPseqPlot_V1.3.py", line 59, in getDepth
+    for j in bamfile.pileup(region = "%s:%d-%d" % (i[1], i[2]-boundary, i[3]+boundary+1)):
+  File "pysam/libcalignmentfile.pyx", line 1051, in pysam.libcalignmentfile.AlignmentFile.pileup (pysam/libcalignmentfile.c:12611)
+  File "pysam/libcalignmentfile.pyx", line 777, in pysam.libcalignmentfile.AlignmentFile.parse_region (pysam/libcalignmentfile.c:10647)
+ValueError: invalid reference `chrUn_NW_014837487v1`
+
